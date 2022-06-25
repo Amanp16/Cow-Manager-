@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.siliconlab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_101"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon_101"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SiliconLab">
+        <activity
+            android:name=".AddMultipleCowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddBarnActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddCowDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddCowActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BarnActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BottomNavActivity"
+            android:exported="true"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity
+            android:name=".VerifyOTPActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
